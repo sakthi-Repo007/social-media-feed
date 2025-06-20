@@ -1,0 +1,75 @@
+:root {
+  --bg-color: #f0f2f5;
+  --card-bg: #fff;
+  --text-color: #222;
+  --meta-color: #555;
+  --button-bg: #e4e6eb;
+  --button-hover: #d8dadf;
+}
+
+.dark-theme {
+  --bg-color: #121212; /* Dark background for entire body */
+  --card-bg: #242526;
+  --text-color: #e4e6eb; /* Light text everywhere */
+  --meta-color: #b0b3b8;
+  --button-bg: #3a3b3c;
+  --button-hover: #4e4f50;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color); /* Let the body inherit text color too */
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Post styles */
+.post-container {
+  border: 1px solid #3333;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.post-body {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.post-author {
+  color: #007bff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.post-meta {
+  font-size: 12px;
+  color: var(--meta-color);
+  margin-left: 4px;
+}
+
+.post-actions button {
+  background: var(--button-bg);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background 0.2s;
+  color: var(--text-color);
+}
+
+.post-actions button:hover {
+  background: var(--button-hover);
+}

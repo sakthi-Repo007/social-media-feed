@@ -1,0 +1,39 @@
+.btn {
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Like Button */
+.btn-like {
+  background-color: #f3f4f6; /* light gray base */
+  color: #333;
+  margin-right: 10px;
+}
+
+.btn-like.liked {
+  background-color: #fee2e2; /* light red */
+  color: #dc2626; /* red-600 */
+}
+
+.btn-like:hover {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+/* Comment Button */
+.btn-comment {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+}
+
+.btn-comment:hover {
+  background-color: #2563eb; /* blue-600 */
+}
