@@ -18,9 +18,6 @@ const Post = ({ post, users }) => {
       <div className="post-body">
         {showFull ? post.body : post.body.slice(0, 100)}
         {post.body.length > 100 && (
-          //   <button onClick={() => setShowFull(!showFull)}>
-          //     {showFull ? "Show less" : "Show more"}
-          //   </button>
           <span
             onClick={() => setShowFull(!showFull)}
             style={{

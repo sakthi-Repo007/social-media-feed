@@ -16,24 +16,12 @@ const App = () => {
           marginRight: 24,
         }}
       >
-        {/* Heart Icon */}
-        {/* <svg
-          width={72}
-          height={80}
-          viewBox="0 0 100 100"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill="#6366f1"
-            d="M50 78.6L45.7 74.8C28.1 58.1 15 45.9 15 32.5C15 23 22.5 15 32.5 15C38.9 15 45 18.5 48 23.6C51 18.5 57.1 15 63.5 15C73.5 15 81 23 81 32.5C81 45.9 67.9 58.1 50.3 74.9L50 75.2L49.7 74.9L50 78.6Z"
-          />
-        </svg> */}
         <svg
           viewBox="0 0 100 100"
           xmlns="http://www.w3.org/2000/svg"
           style={{
             width: "100%",
-            maxWidth: "72px", // cap at a certain size
+            maxWidth: "72px",
             height: "auto",
           }}
         >
@@ -42,20 +30,6 @@ const App = () => {
             d="M50 78.6L45.7 74.8C28.1 58.1 15 45.9 15 32.5C15 23 22.5 15 32.5 15C38.9 15 45 18.5 48 23.6C51 18.5 57.1 15 63.5 15C73.5 15 81 23 81 32.5C81 45.9 67.9 58.1 50.3 74.9L50 75.2L49.7 74.9L50 78.6Z"
           />
         </svg>
-
-        {/* Title Text */}
-        {/* <div style={{ lineHeight: 1.2 }}>
-          <h1
-            style={{
-              margin: 0,
-              fontSize: "3rem", // 36px
-              fontWeight: "500",
-              color: "rgb(111 101 229)", // Tailwind gray-900
-            }}
-          >
-            Social Media Feed
-          </h1>
-        </div> */}
         <h1 className="responsive-title">Social Media Feed</h1>
       </div>
 
@@ -67,7 +41,7 @@ const App = () => {
 
 export default App;
 
-//Dark-theme
+//Dark-theme-Will implement in future
 
 // const App = () => {
 //   const [theme, setTheme] = useState("light");

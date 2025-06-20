@@ -1,3 +1,5 @@
+//Dark Theme Will Implement in future
+
 :root {
   --bg-color: #f0f2f5;
   --card-bg: #fff;
@@ -21,7 +23,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  color: var(--text-color); /* Let the body inherit text color too */
+  color: var(--text-color);
   transition: background 0.3s, color 0.3s;
 }
 
