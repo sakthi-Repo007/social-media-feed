@@ -13,9 +13,7 @@ const App = () => {
 
 export default App;
 
-// import React, { useState } from "react";
-// import Feed from "./components/Feed";
-// import "./styles/themes.css";
+//Dark-theme
 
 // const App = () => {
 //   const [theme, setTheme] = useState("light");
@@ -44,5 +42,3 @@ export default App;
 //     </div>
 //   );
 // };
-
-// export default App;
