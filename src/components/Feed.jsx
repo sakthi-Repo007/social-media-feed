@@ -1,33 +1,3 @@
-// import React, { useEffect, useState } from "react";
-// import { fetchPosts, fetchUsers } from "../utils/api";
-// import Post from "./Post";
-
-// const Feed = () => {
-//   const [posts, setPosts] = useState([]);
-//   const [users, setUsers] = useState([]);
-
-//   useEffect(() => {
-//     Promise.all([fetchPosts(), fetchUsers()]).then(([postsData, usersData]) => {
-//       const enrichedPosts = postsData.map((post) => ({
-//         ...post,
-//         createdAt: new Date(Date.now() - Math.random() * 1e10),
-//       }));
-//       setPosts(enrichedPosts);
-//       setUsers(usersData);
-//     });
-//   }, []);
-
-//   return (
-//     <div>
-//       {posts.map((post) => (
-//         <Post key={post.id} post={post} users={users} />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Feed;
-
 import React, { useEffect, useState } from "react";
 import { fetchPosts, fetchUsers } from "../utils/api";
 import Post from "./Post";
